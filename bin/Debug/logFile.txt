@@ -1,0 +1,905 @@
+2023-08-07 15:34:11 - The calculation was started.
+2023-08-07 15:34:11 - Input user data:.
+2023-08-07 15:34:11 -    Content for Startup info:
+2023-08-07 15:34:11 -    Startup type: AI/ Machine Learning
+2023-08-07 15:34:11 -    Starting budger: 20000
+2023-08-07 15:34:11 -    Month budget:  7000
+2023-08-07 15:34:11 -    Number of employees: 5
+2023-08-07 15:34:11 -    Storage size [TB]: 4
+2023-08-07 15:34:11 -    Database required?: True
+2023-08-07 15:34:11 -    Database type: NoSQL
+2023-08-07 15:34:11 -    Database size: 60
+2023-08-07 15:34:11 -    Scalability: 3
+2023-08-07 15:34:11 -    Security: 1
+2023-08-07 15:34:11 -    Infrastructure management: False
+2023-08-07 15:34:11 -    Software payment method: Miesięczna
+2023-08-07 15:34:13 - Storage calculation:
+2023-08-07 15:34:13 -    Cloud:
+2023-08-07 15:34:13 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 1505,28 zl
+2023-08-07 15:34:14 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:34:14 -        Sumarry cost: 1532,28
+2023-08-07 15:34:15 -    OnPrem:
+2023-08-07 15:34:15 -        SSD disk capacity: 4000GB, Model: 4TB 2,5" SATA SSD 870 EVO, Price: 1130,00 zl, Ilosc: 1
+2023-08-07 15:34:15 -        Summary Price: 1130,00 zl
+2023-08-07 15:34:15 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:34:15 - Networking calculation:
+2023-08-07 15:34:15 -    Cloud:
+2023-08-07 15:34:16 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:34:17 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:34:17 -        Summary Firewall cost: 1166,4
+2023-08-07 15:34:18 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:34:19 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:34:22 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:34:22 -        Summary Load Balancer cost: 120
+2023-08-07 15:34:22 -    OnPrem:
+2023-08-07 15:34:22 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:34:22 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:34:22 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:34:22 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:34:22 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:34:22 - Software calculation
+2023-08-07 15:34:22 -     General:
+2023-08-07 15:34:22 -         Service: Github
+2023-08-07 15:34:22 -         Provider: Github
+2023-08-07 15:34:22 -         Version: Team
+2023-08-07 15:34:22 -         Monthly Cost: 185,00 zł
+2023-08-07 15:34:22 -         Service: Visual Studio
+2023-08-07 15:34:22 -         Provider: Microsoft
+2023-08-07 15:34:22 -         Version: Professional
+2023-08-07 15:34:22 -         Monthly Cost: 900,00 zł
+2023-08-07 15:34:22 -    Summary software cost for AI/ Machine Learning startup: 1085,00 zł
+2023-08-07 15:34:22 - Database calculation:
+2023-08-07 15:34:22 -    Cloud:
+2023-08-07 15:34:25 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: 100 RU/s, Cost: 93,44  zl
+2023-08-07 15:34:28 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: Data Stored, Cost: 60  zl
+2023-08-07 15:34:28 -        Summary cost: 153,44
+2023-08-07 15:34:28 -  Onprem:
+2023-08-07 15:34:28 -        Model: 250GB 2,5" SATA SSD 870 EVO, Capacity: 250GB, Price: 125,00 zł
+2023-08-07 15:34:28 -        Summary Price: 125,00 zł
+2023-08-07 15:34:28 - Server calculation:
+2023-08-07 15:34:28 -     OnPrem
+2023-08-07 15:34:28 -         Recomender physical server configuration:
+2023-08-07 15:34:28 -         Server name: DELL PowerEdge R450
+2023-08-07 15:34:28 -         Procesor: Intel® Xeon® Silver 4314
+2023-08-07 15:34:28 -         vCPUs: 512
+2023-08-07 15:34:28 -         RAM: 32GB
+2023-08-07 15:34:28 -         Memory: 500GB
+2023-08-07 15:34:28 -         Summary price: 14238,00 zł
+2023-08-07 15:34:28 -        Number of servers: 1
+2023-08-07 15:34:28 -     Cloud:
+2023-08-07 15:34:30 -        ProductName: Virtual Machines F Series
+2023-08-07 15:34:30 -        MeterName: F8/F8s
+2023-08-07 15:34:30 -        Price for server: 1271,2 zl
+2023-08-07 15:34:30 -        Number of servers: 1
+2023-08-07 15:34:30 - Maintennance onprem.
+2023-08-07 15:34:30 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 788,4kWh, Price: 622,836 zl
+2023-08-07 15:34:30 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:34:30 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:34:30 -        Total network equipment size: 13
+2023-08-07 15:34:30 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:34:30 - Infrastructure Management
+2023-08-07 15:34:30 -     General
+2023-08-07 15:34:30 -        CompanyName: CCIT, HoursOfSupport 10h ,Price: 970 zl
+2023-08-07 15:34:33 - 
+2023-08-07 15:34:33 - Generel calculated information
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 1532,28, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 2698,00, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Database, Name: Azure Cosmos DB, Version: 400 RU/s, Count: 1, TotalPrice: 153,44, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Database, Name: Database, Version: SSD database storage, Count: 1, TotalPrice: 125,00, PaymentType: instantly
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 14238,00, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Server, Name: Virtual Machines F Series, Version: F8/F8s, Count: 1, TotalPrice: 1271,2, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 622,836, PaymentType: month
+2023-08-07 15:34:33 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:34:33 - Type: Cloud, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:34:33 - Type: OnPrem, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:35:52 - Solution after 12 months of working: Startup nie jest w stanie pozwolić sobie na żadną infrastrukturę. Skorzystaj z tańszego sprzętu.
+
+Total (after 1 month) Cloud Price: 7 253,12 zł
+Total (after 1 month) OnPrem Price: 27 894,86 zł
+2023-08-07 15:44:52 - The calculation was started.
+2023-08-07 15:44:52 - Input user data:.
+2023-08-07 15:44:52 -    Content for Startup info:
+2023-08-07 15:44:52 -    Startup type: AI/ Machine Learning
+2023-08-07 15:44:52 -    Starting budger: 30000
+2023-08-07 15:44:52 -    Month budget:  7000
+2023-08-07 15:44:52 -    Number of employees: 5
+2023-08-07 15:44:52 -    Storage size [TB]: 4
+2023-08-07 15:44:52 -    Database required?: True
+2023-08-07 15:44:52 -    Database type: NoSQL
+2023-08-07 15:44:52 -    Database size: 60
+2023-08-07 15:44:52 -    Scalability: 3
+2023-08-07 15:44:52 -    Security: 1
+2023-08-07 15:44:52 -    Infrastructure management: False
+2023-08-07 15:44:52 -    Software payment method: Miesięczna
+2023-08-07 15:44:55 - Storage calculation:
+2023-08-07 15:44:55 -    Cloud:
+2023-08-07 15:44:55 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 1505,28 zl
+2023-08-07 15:44:57 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:44:57 -        Sumarry cost: 1532,28
+2023-08-07 15:44:57 -    OnPrem:
+2023-08-07 15:44:57 -        SSD disk capacity: 4000GB, Model: 4TB 2,5" SATA SSD 870 EVO, Price: 1130,00 zl, Ilosc: 1
+2023-08-07 15:44:57 -        Summary Price: 1130,00 zl
+2023-08-07 15:44:57 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:44:57 - Networking calculation:
+2023-08-07 15:44:57 -    Cloud:
+2023-08-07 15:44:58 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:45:00 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:45:00 -        Summary Firewall cost: 1166,4
+2023-08-07 15:45:01 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:45:02 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:45:05 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:45:05 -        Summary Load Balancer cost: 120
+2023-08-07 15:45:05 -    OnPrem:
+2023-08-07 15:45:05 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:45:05 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:45:05 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:45:05 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:45:05 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:45:05 - Software calculation
+2023-08-07 15:45:05 -     General:
+2023-08-07 15:45:05 -         Service: Github
+2023-08-07 15:45:05 -         Provider: Github
+2023-08-07 15:45:05 -         Version: Team
+2023-08-07 15:45:05 -         Monthly Cost: 185,00 zł
+2023-08-07 15:45:05 -         Service: Visual Studio
+2023-08-07 15:45:05 -         Provider: Microsoft
+2023-08-07 15:45:05 -         Version: Professional
+2023-08-07 15:45:05 -         Monthly Cost: 900,00 zł
+2023-08-07 15:45:05 -    Summary software cost for AI/ Machine Learning startup: 1085,00 zł
+2023-08-07 15:45:05 - Database calculation:
+2023-08-07 15:45:05 -    Cloud:
+2023-08-07 15:45:06 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: 100 RU/s, Cost: 93,44  zl
+2023-08-07 15:45:07 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: Data Stored, Cost: 60  zl
+2023-08-07 15:45:07 -        Summary cost: 153,44
+2023-08-07 15:45:07 -  Onprem:
+2023-08-07 15:45:07 -        Model: 250GB 2,5" SATA SSD 870 EVO, Capacity: 250GB, Price: 125,00 zł
+2023-08-07 15:45:07 -        Summary Price: 125,00 zł
+2023-08-07 15:45:07 - Server calculation:
+2023-08-07 15:45:07 -     OnPrem
+2023-08-07 15:45:07 -         Recomender physical server configuration:
+2023-08-07 15:45:07 -         Server name: DELL PowerEdge R450
+2023-08-07 15:45:07 -         Procesor: Intel® Xeon® Silver 4314
+2023-08-07 15:45:07 -         vCPUs: 512
+2023-08-07 15:45:07 -         RAM: 32GB
+2023-08-07 15:45:07 -         Memory: 500GB
+2023-08-07 15:45:07 -         Summary price: 14238,00 zł
+2023-08-07 15:45:07 -        Number of servers: 1
+2023-08-07 15:45:07 -     Cloud:
+2023-08-07 15:45:08 -        ProductName: Virtual Machines F Series
+2023-08-07 15:45:08 -        MeterName: F8/F8s
+2023-08-07 15:45:08 -        Price for server: 1271,2 zl
+2023-08-07 15:45:08 -        Number of servers: 1
+2023-08-07 15:45:08 - Maintennance onprem.
+2023-08-07 15:45:08 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 788,4kWh, Price: 622,836 zl
+2023-08-07 15:45:08 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:45:08 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:45:08 -        Total network equipment size: 13
+2023-08-07 15:45:08 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:45:08 - Infrastructure Management
+2023-08-07 15:45:08 -     General
+2023-08-07 15:45:08 -        CompanyName: CCIT, HoursOfSupport 10h ,Price: 970 zl
+2023-08-07 15:45:11 - 
+2023-08-07 15:45:11 - Generel calculated information
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 1532,28, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 2698,00, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Database, Name: Azure Cosmos DB, Version: 400 RU/s, Count: 1, TotalPrice: 153,44, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Database, Name: Database, Version: SSD database storage, Count: 1, TotalPrice: 125,00, PaymentType: instantly
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 14238,00, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Server, Name: Virtual Machines F Series, Version: F8/F8s, Count: 1, TotalPrice: 1271,2, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 622,836, PaymentType: month
+2023-08-07 15:45:11 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:45:11 - Type: Cloud, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:45:11 - Type: OnPrem, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:45:50 - Solution after 12 months of working: Infrastruktura OnPremise
+
+Total (after 1 month) Cloud Price: 7 253,12 zł
+Total (after 1 month) OnPrem Price: 27 894,86 zł
+2023-08-07 15:49:26 - The calculation was started.
+2023-08-07 15:49:26 - Input user data:.
+2023-08-07 15:49:26 -    Content for Startup info:
+2023-08-07 15:49:26 -    Startup type: AI/ Machine Learning
+2023-08-07 15:49:26 -    Starting budger: 10000
+2023-08-07 15:49:26 -    Month budget:  7000
+2023-08-07 15:49:26 -    Number of employees: 5
+2023-08-07 15:49:26 -    Storage size [TB]: 2
+2023-08-07 15:49:26 -    Database required?: False
+2023-08-07 15:49:26 -    Database type: 
+2023-08-07 15:49:26 -    Database size: 
+2023-08-07 15:49:26 -    Scalability: 1
+2023-08-07 15:49:26 -    Security: 1
+2023-08-07 15:49:26 -    Infrastructure management: True
+2023-08-07 15:49:26 -    Software payment method: Miesięczna
+2023-08-07 15:49:27 - Storage calculation:
+2023-08-07 15:49:27 -    Cloud:
+2023-08-07 15:49:27 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 752,64 zl
+2023-08-07 15:49:28 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:49:28 -        Sumarry cost: 779,64
+2023-08-07 15:49:28 -    OnPrem:
+2023-08-07 15:49:28 -        SSD disk capacity: 2000GB, Model: 2TB 2,5" SATA SSD 870 EVO, Price: 589,00 zl, Ilosc: 1
+2023-08-07 15:49:28 -        Summary Price: 589,00 zl
+2023-08-07 15:49:28 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:49:28 - Networking calculation:
+2023-08-07 15:49:28 -    Cloud:
+2023-08-07 15:49:28 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:49:29 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:49:29 -        Summary Firewall cost: 1166,4
+2023-08-07 15:49:31 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:49:35 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:49:36 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:49:36 -        Summary Load Balancer cost: 120
+2023-08-07 15:49:36 -    OnPrem:
+2023-08-07 15:49:36 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:49:36 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:49:36 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:49:36 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:49:36 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:49:36 - Software calculation
+2023-08-07 15:49:36 -     General:
+2023-08-07 15:49:36 -         Service: Github
+2023-08-07 15:49:36 -         Provider: Github
+2023-08-07 15:49:36 -         Version: Team
+2023-08-07 15:49:36 -         Monthly Cost: 185,00 zł
+2023-08-07 15:49:36 -         Service: Visual Studio
+2023-08-07 15:49:36 -         Provider: Microsoft
+2023-08-07 15:49:36 -         Version: Professional
+2023-08-07 15:49:36 -         Monthly Cost: 900,00 zł
+2023-08-07 15:49:36 -    Summary software cost for AI/ Machine Learning startup: 1085,00 zł
+2023-08-07 15:49:36 - Server calculation:
+2023-08-07 15:49:36 -     OnPrem
+2023-08-07 15:49:36 -         Recomender physical server configuration:
+2023-08-07 15:49:36 -         Server name: DELL PowerEdge R350
+2023-08-07 15:49:36 -         Procesor: Intel® Xeon® E-2334
+2023-08-07 15:49:36 -         vCPUs: 32
+2023-08-07 15:49:36 -         RAM: 32GB
+2023-08-07 15:49:36 -         Memory: 500GB
+2023-08-07 15:49:36 -         Summary price: 10470,00 zł
+2023-08-07 15:49:36 -        Number of servers: 1
+2023-08-07 15:49:36 -     Cloud:
+2023-08-07 15:49:37 -        ProductName: Virtual Machines F Series
+2023-08-07 15:49:37 -        MeterName: F8/F8s
+2023-08-07 15:49:37 -        Price for server: 1271,2 zl
+2023-08-07 15:49:37 -        Number of servers: 1
+2023-08-07 15:49:37 - Maintennance onprem.
+2023-08-07 15:49:37 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 738kWh, Price: 583,02 zl
+2023-08-07 15:49:37 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:49:37 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:49:37 -        Total network equipment size: 9
+2023-08-07 15:49:37 -     Service: RACK, Provider: RACK, Model: WF01-6409-00B V2 LANBERG, Count: 1, Total Price: 370  zl
+2023-08-07 15:49:40 - 
+2023-08-07 15:49:40 - Generel calculated information
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 779,64, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 2157,00, PaymentType: instantly
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1085,00, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R350, Version: DELL PowerEdge R350, Count: 1, TotalPrice: 10470,00, PaymentType: instantly
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Server, Name: Virtual Machines F Series, Version: F8/F8s, Count: 1, TotalPrice: 1271,2, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 583,02, PaymentType: month
+2023-08-07 15:49:40 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:49:40 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:49:40 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:49:40 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6409-00B V2 LANBERG, Count: 1, TotalPrice: 370, PaymentType: instantly
+2023-08-07 15:50:07 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 5 377,04 zł
+Total (after 1 month) OnPrem Price: 22 179,04 zł
+2023-08-07 15:53:56 - The calculation was started.
+2023-08-07 15:53:56 - Input user data:.
+2023-08-07 15:53:56 -    Content for Startup info:
+2023-08-07 15:53:56 -    Startup type: Analysis/ Analytics tools
+2023-08-07 15:53:56 -    Starting budger: 10000
+2023-08-07 15:53:56 -    Month budget:  7000
+2023-08-07 15:53:56 -    Number of employees: 8
+2023-08-07 15:53:56 -    Storage size [TB]: 0,5
+2023-08-07 15:53:56 -    Database required?: True
+2023-08-07 15:53:56 -    Database type: NoSQL
+2023-08-07 15:53:56 -    Database size: 100
+2023-08-07 15:53:56 -    Scalability: 3
+2023-08-07 15:53:56 -    Security: 1
+2023-08-07 15:53:56 -    Infrastructure management: True
+2023-08-07 15:53:56 -    Software payment method: Roczna
+2023-08-07 15:53:58 - Storage calculation:
+2023-08-07 15:53:58 -    Cloud:
+2023-08-07 15:53:58 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 188,16 zl
+2023-08-07 15:53:59 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:53:59 -        Sumarry cost: 215,16
+2023-08-07 15:53:59 -    OnPrem:
+2023-08-07 15:53:59 -        SSD disk capacity: 500GB, Model: 500GB 2,5" SATA SSD 870 EVO, Price: 189,00 zl, Ilosc: 1
+2023-08-07 15:53:59 -        Summary Price: 189,00 zl
+2023-08-07 15:53:59 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:53:59 - Networking calculation:
+2023-08-07 15:53:59 -    Cloud:
+2023-08-07 15:54:00 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:54:00 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:54:00 -        Summary Firewall cost: 1166,4
+2023-08-07 15:54:01 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:54:05 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:54:06 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:54:06 -        Summary Load Balancer cost: 120
+2023-08-07 15:54:06 -    OnPrem:
+2023-08-07 15:54:06 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:54:06 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:54:06 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:54:06 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:54:06 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:54:06 - Software calculation
+2023-08-07 15:54:06 -     General:
+2023-08-07 15:54:06 -         Service: Github
+2023-08-07 15:54:06 -         Provider: Github
+2023-08-07 15:54:06 -         Version: Team
+2023-08-07 15:54:06 -         Monthly Cost: 200,00 zł
+2023-08-07 15:54:06 -         Service: Visual Studio
+2023-08-07 15:54:06 -         Provider: Microsoft
+2023-08-07 15:54:06 -         Version: Professional
+2023-08-07 15:54:06 -         Monthly Cost: 1440 zł
+2023-08-07 15:54:06 -         Service: Power BI
+2023-08-07 15:54:06 -         Provider: Microsft
+2023-08-07 15:54:06 -         Version: Pro
+2023-08-07 15:54:06 -         Monthly Cost: 320 zł
+2023-08-07 15:54:06 -    Summary software cost for Analysis/ Analytics tools startup: 1960,00 zł
+2023-08-07 15:54:06 - Database calculation:
+2023-08-07 15:54:06 -    Cloud:
+2023-08-07 15:54:07 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: 100 RU/s, Cost: 93,44  zl
+2023-08-07 15:54:09 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: Data Stored, Cost: 100  zl
+2023-08-07 15:54:09 -        Summary cost: 193,44
+2023-08-07 15:54:09 -  Onprem:
+2023-08-07 15:54:09 -        Model: 250GB 2,5" SATA SSD 870 EVO, Capacity: 250GB, Price: 125,00 zł
+2023-08-07 15:54:09 -        Summary Price: 125,00 zł
+2023-08-07 15:54:09 - Server calculation:
+2023-08-07 15:54:09 -     OnPrem
+2023-08-07 15:54:09 -         Recomender physical server configuration:
+2023-08-07 15:54:09 -         Server name: DELL PowerEdge R450
+2023-08-07 15:54:09 -         Procesor: Intel® Xeon® Silver 4309Y
+2023-08-07 15:54:09 -         vCPUs: 128
+2023-08-07 15:54:09 -         RAM: 64GB
+2023-08-07 15:54:09 -         Memory: 250GB
+2023-08-07 15:54:09 -         Summary price: 15478,00 zł
+2023-08-07 15:54:09 -        Number of servers: 1
+2023-08-07 15:54:09 -     Cloud:
+2023-08-07 15:54:11 -        ProductName: Virtual Machines Edv4 Series
+2023-08-07 15:54:11 -        MeterName: E4d v4
+2023-08-07 15:54:11 -        Price for server: 968,8 zl
+2023-08-07 15:54:11 -        Number of servers: 1
+2023-08-07 15:54:11 - Maintennance onprem.
+2023-08-07 15:54:11 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 766,8kWh, Price: 605,772 zl
+2023-08-07 15:54:11 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:54:11 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:54:11 -        Total network equipment size: 13
+2023-08-07 15:54:11 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:54:14 - 
+2023-08-07 15:54:14 - Generel calculated information
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 215,16, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 1757,00, PaymentType: instantly
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1960,00, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1960,00, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Database, Name: Azure Cosmos DB, Version: 400 RU/s, Count: 1, TotalPrice: 193,44, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Database, Name: Database, Version: SSD database storage, Count: 1, TotalPrice: 125,00, PaymentType: instantly
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 15478,00, PaymentType: instantly
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Server, Name: Virtual Machines Edv4 Series, Version: E4d v4, Count: 1, TotalPrice: 968,8, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 605,772, PaymentType: month
+2023-08-07 15:54:14 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:54:14 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:54:14 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:54:14 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:54:50 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 5 578,60 zł
+Total (after 1 month) OnPrem Price: 28 081,79 zł
+2023-08-07 15:57:40 - The calculation was started.
+2023-08-07 15:57:40 - Input user data:.
+2023-08-07 15:57:40 -    Content for Startup info:
+2023-08-07 15:57:40 -    Startup type: Analysis/ Analytics tools
+2023-08-07 15:57:40 -    Starting budger: 10000
+2023-08-07 15:57:40 -    Month budget:  10000
+2023-08-07 15:57:40 -    Number of employees: 8
+2023-08-07 15:57:40 -    Storage size [TB]: 0,5
+2023-08-07 15:57:40 -    Database required?: False
+2023-08-07 15:57:40 -    Database type: 
+2023-08-07 15:57:40 -    Database size: 
+2023-08-07 15:57:40 -    Scalability: 2
+2023-08-07 15:57:40 -    Security: 3
+2023-08-07 15:57:40 -    Infrastructure management: False
+2023-08-07 15:57:40 -    Software payment method: Roczna
+2023-08-07 15:57:42 - Storage calculation:
+2023-08-07 15:57:42 -    Cloud:
+2023-08-07 15:57:42 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 188,16 zl
+2023-08-07 15:57:44 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:57:44 -        Sumarry cost: 215,16
+2023-08-07 15:57:44 -    OnPrem:
+2023-08-07 15:57:44 -        SSD disk capacity: 500GB, Model: 500GB 2,5" SATA SSD 870 EVO, Price: 189,00 zl, Ilosc: 1
+2023-08-07 15:57:44 -        Summary Price: 189,00 zl
+2023-08-07 15:57:44 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:57:44 - Networking calculation:
+2023-08-07 15:57:44 -    Cloud:
+2023-08-07 15:57:45 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:57:46 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:57:46 -        Summary Firewall cost: 1166,4
+2023-08-07 15:57:47 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:57:48 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:57:49 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:57:49 -        Summary Load Balancer cost: 120
+2023-08-07 15:57:49 -    OnPrem:
+2023-08-07 15:57:49 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:57:49 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:57:49 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:57:49 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:57:49 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:57:49 - Software calculation
+2023-08-07 15:57:49 -     General:
+2023-08-07 15:57:49 -         Service: Github
+2023-08-07 15:57:49 -         Provider: Github
+2023-08-07 15:57:49 -         Version: Team
+2023-08-07 15:57:49 -         Monthly Cost: 200,00 zł
+2023-08-07 15:57:49 -         Service: Visual Studio
+2023-08-07 15:57:49 -         Provider: Microsoft
+2023-08-07 15:57:49 -         Version: Professional
+2023-08-07 15:57:49 -         Monthly Cost: 1440 zł
+2023-08-07 15:57:49 -         Service: Power BI
+2023-08-07 15:57:49 -         Provider: Microsft
+2023-08-07 15:57:49 -         Version: Pro
+2023-08-07 15:57:49 -         Monthly Cost: 320 zł
+2023-08-07 15:57:49 -    Summary software cost for Analysis/ Analytics tools startup: 1960,00 zł
+2023-08-07 15:57:49 - Server calculation:
+2023-08-07 15:57:49 -     OnPrem
+2023-08-07 15:57:49 -         Recomender physical server configuration:
+2023-08-07 15:57:49 -         Server name: DELL PowerEdge R450
+2023-08-07 15:57:49 -         Procesor: Intel® Xeon® Silver 4309Y
+2023-08-07 15:57:49 -         vCPUs: 128
+2023-08-07 15:57:49 -         RAM: 64GB
+2023-08-07 15:57:49 -         Memory: 250GB
+2023-08-07 15:57:49 -         Summary price: 15478,00 zł
+2023-08-07 15:57:49 -        Number of servers: 1
+2023-08-07 15:57:49 -     Cloud:
+2023-08-07 15:57:49 -        ProductName: Virtual Machines Edv4 Series
+2023-08-07 15:57:49 -        MeterName: E4d v4
+2023-08-07 15:57:49 -        Price for server: 968,8 zl
+2023-08-07 15:57:49 -        Number of servers: 1
+2023-08-07 15:57:49 - Maintennance onprem.
+2023-08-07 15:57:49 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 766,8kWh, Price: 605,772 zl
+2023-08-07 15:57:49 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:57:49 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:57:49 -        Total network equipment size: 11
+2023-08-07 15:57:49 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:57:49 - Infrastructure Management
+2023-08-07 15:57:49 -     General
+2023-08-07 15:57:49 -        CompanyName: CCIT, HoursOfSupport 10h ,Price: 970 zl
+2023-08-07 15:57:53 - 
+2023-08-07 15:57:53 - Generel calculated information
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 215,16, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 1757,00, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1960,00, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 1960,00, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 15478,00, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Server, Name: Virtual Machines Edv4 Series, Version: E4d v4, Count: 1, TotalPrice: 968,8, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 605,772, PaymentType: month
+2023-08-07 15:57:53 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:57:53 - Type: Cloud, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:57:53 - Type: OnPrem, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:58:12 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 6 355,16 zł
+Total (after 1 month) OnPrem Price: 28 926,79 zł
+2023-08-07 15:58:32 - The calculation was started.
+2023-08-07 15:58:32 - Input user data:.
+2023-08-07 15:58:32 -    Content for Startup info:
+2023-08-07 15:58:32 -    Startup type: ECommerce
+2023-08-07 15:58:32 -    Starting budger: 10000
+2023-08-07 15:58:32 -    Month budget:  10000
+2023-08-07 15:58:32 -    Number of employees: 8
+2023-08-07 15:58:32 -    Storage size [TB]: 0,5
+2023-08-07 15:58:32 -    Database required?: False
+2023-08-07 15:58:32 -    Database type: 
+2023-08-07 15:58:32 -    Database size: 
+2023-08-07 15:58:32 -    Scalability: 2
+2023-08-07 15:58:32 -    Security: 3
+2023-08-07 15:58:32 -    Infrastructure management: False
+2023-08-07 15:58:32 -    Software payment method: Roczna
+2023-08-07 15:58:35 - Storage calculation:
+2023-08-07 15:58:35 -    Cloud:
+2023-08-07 15:58:35 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 188,16 zl
+2023-08-07 15:58:36 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:58:36 -        Sumarry cost: 215,16
+2023-08-07 15:58:36 -    OnPrem:
+2023-08-07 15:58:36 -        SSD disk capacity: 500GB, Model: 500GB 2,5" SATA SSD 870 EVO, Price: 189,00 zl, Ilosc: 1
+2023-08-07 15:58:36 -        Summary Price: 189,00 zl
+2023-08-07 15:58:36 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:58:36 - Networking calculation:
+2023-08-07 15:58:36 -    Cloud:
+2023-08-07 15:58:38 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:58:39 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:58:39 -        Summary Firewall cost: 1166,4
+2023-08-07 15:58:40 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:58:42 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:58:43 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:58:43 -        Summary Load Balancer cost: 120
+2023-08-07 15:58:43 -    OnPrem:
+2023-08-07 15:58:43 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:58:43 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:58:43 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:58:43 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:58:43 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:58:43 - Software calculation
+2023-08-07 15:58:43 -     General:
+2023-08-07 15:58:43 -         Service: Github
+2023-08-07 15:58:43 -         Provider: Github
+2023-08-07 15:58:43 -         Version: Team
+2023-08-07 15:58:43 -         Monthly Cost: 200,00 zł
+2023-08-07 15:58:43 -         Service: Word Press
+2023-08-07 15:58:43 -         Provider: WordPress
+2023-08-07 15:58:43 -         Version: Commerce
+2023-08-07 15:58:43 -         Monthly Cost: 172 zł
+2023-08-07 15:58:43 -         Service: WooComerce
+2023-08-07 15:58:43 -         Provider: WooComerce
+2023-08-07 15:58:43 -         Version: Startup
+2023-08-07 15:58:43 -         Monthly Cost: 14 zł
+2023-08-07 15:58:43 -         Service: OptiMonk
+2023-08-07 15:58:43 -         Provider: OptiMonk
+2023-08-07 15:58:43 -         Version: Essential
+2023-08-07 15:58:43 -         Monthly Cost: 134,00 zł
+2023-08-07 15:58:43 -    Summary software cost for ECommerce startup: 520,00 zł
+2023-08-07 15:58:43 - Server calculation:
+2023-08-07 15:58:43 -     OnPrem
+2023-08-07 15:58:43 -         Recomender physical server configuration:
+2023-08-07 15:58:43 -         Server name: DELL PowerEdge R450
+2023-08-07 15:58:43 -         Procesor: Intel® Xeon® Silver 4309Y
+2023-08-07 15:58:43 -         vCPUs: 128
+2023-08-07 15:58:43 -         RAM: 32GB
+2023-08-07 15:58:43 -         Memory: 1000GB
+2023-08-07 15:58:43 -         Summary price: 13417,00 zł
+2023-08-07 15:58:43 -        Number of servers: 1
+2023-08-07 15:58:43 -     Cloud:
+2023-08-07 15:58:47 -        ProductName: Virtual Machines LS Series
+2023-08-07 15:58:47 -        MeterName: L4s
+2023-08-07 15:58:47 -        Price for server: 1041,6 zl
+2023-08-07 15:58:47 -        Number of servers: 1
+2023-08-07 15:58:47 - Maintennance onprem.
+2023-08-07 15:58:47 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 766,8kWh, Price: 605,772 zl
+2023-08-07 15:58:47 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:58:47 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:58:47 -        Total network equipment size: 11
+2023-08-07 15:58:47 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:58:47 - Infrastructure Management
+2023-08-07 15:58:47 -     General
+2023-08-07 15:58:47 -        CompanyName: CCIT, HoursOfSupport 10h ,Price: 970 zl
+2023-08-07 15:58:50 - 
+2023-08-07 15:58:50 - Generel calculated information
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 215,16, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 1757,00, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 520,00, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 520,00, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 13417,00, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Server, Name: Virtual Machines LS Series, Version: L4s, Count: 1, TotalPrice: 1041,6, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 605,772, PaymentType: month
+2023-08-07 15:58:50 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:58:50 - Type: Cloud, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:58:50 - Type: OnPrem, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:58:54 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 4 987,96 zł
+Total (after 1 month) OnPrem Price: 25 425,79 zł
+2023-08-07 15:59:28 - The calculation was started.
+2023-08-07 15:59:28 - Input user data:.
+2023-08-07 15:59:28 -    Content for Startup info:
+2023-08-07 15:59:28 -    Startup type: ECommerce
+2023-08-07 15:59:28 -    Starting budger: 10000
+2023-08-07 15:59:28 -    Month budget:  10000
+2023-08-07 15:59:28 -    Number of employees: 15
+2023-08-07 15:59:28 -    Storage size [TB]: 0,5
+2023-08-07 15:59:28 -    Database required?: False
+2023-08-07 15:59:28 -    Database type: 
+2023-08-07 15:59:28 -    Database size: 
+2023-08-07 15:59:28 -    Scalability: 2
+2023-08-07 15:59:28 -    Security: 3
+2023-08-07 15:59:28 -    Infrastructure management: False
+2023-08-07 15:59:28 -    Software payment method: Roczna
+2023-08-07 15:59:30 - Storage calculation:
+2023-08-07 15:59:30 -    Cloud:
+2023-08-07 15:59:30 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 188,16 zl
+2023-08-07 15:59:32 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-07 15:59:32 -        Sumarry cost: 215,16
+2023-08-07 15:59:32 -    OnPrem:
+2023-08-07 15:59:32 -        SSD disk capacity: 500GB, Model: 500GB 2,5" SATA SSD 870 EVO, Price: 189,00 zl, Ilosc: 1
+2023-08-07 15:59:32 -        Summary Price: 189,00 zl
+2023-08-07 15:59:32 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-07 15:59:32 - Networking calculation:
+2023-08-07 15:59:32 -    Cloud:
+2023-08-07 15:59:33 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-07 15:59:34 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-07 15:59:34 -        Summary Firewall cost: 1166,4
+2023-08-07 15:59:35 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-07 15:59:37 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-07 15:59:38 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-07 15:59:38 -        Summary Load Balancer cost: 120
+2023-08-07 15:59:38 -    OnPrem:
+2023-08-07 15:59:38 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-07 15:59:38 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-07 15:59:38 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-07 15:59:38 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-07 15:59:38 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-07 15:59:38 - Software calculation
+2023-08-07 15:59:38 -     General:
+2023-08-07 15:59:38 -         Service: Github
+2023-08-07 15:59:38 -         Provider: Github
+2023-08-07 15:59:38 -         Version: Team
+2023-08-07 15:59:38 -         Monthly Cost: 375,00 zł
+2023-08-07 15:59:38 -         Service: Word Press
+2023-08-07 15:59:38 -         Provider: WordPress
+2023-08-07 15:59:38 -         Version: Commerce
+2023-08-07 15:59:38 -         Monthly Cost: 172 zł
+2023-08-07 15:59:38 -         Service: WooComerce
+2023-08-07 15:59:38 -         Provider: WooComerce
+2023-08-07 15:59:38 -         Version: Startup
+2023-08-07 15:59:38 -         Monthly Cost: 14 zł
+2023-08-07 15:59:38 -         Service: OptiMonk
+2023-08-07 15:59:38 -         Provider: OptiMonk
+2023-08-07 15:59:38 -         Version: Essential
+2023-08-07 15:59:38 -         Monthly Cost: 134,00 zł
+2023-08-07 15:59:38 -    Summary software cost for ECommerce startup: 695,00 zł
+2023-08-07 15:59:38 - Server calculation:
+2023-08-07 15:59:38 -     OnPrem
+2023-08-07 15:59:38 -         Recomender physical server configuration:
+2023-08-07 15:59:38 -         Server name: DELL PowerEdge R450
+2023-08-07 15:59:38 -         Procesor: Intel® Xeon® Silver 4309Y
+2023-08-07 15:59:38 -         vCPUs: 128
+2023-08-07 15:59:38 -         RAM: 32GB
+2023-08-07 15:59:38 -         Memory: 1000GB
+2023-08-07 15:59:38 -         Summary price: 13417,00 zł
+2023-08-07 15:59:38 -        Number of servers: 1
+2023-08-07 15:59:38 -     Cloud:
+2023-08-07 15:59:43 -        ProductName: Virtual Machines LS Series
+2023-08-07 15:59:43 -        MeterName: L4s
+2023-08-07 15:59:43 -        Price for server: 1041,6 zl
+2023-08-07 15:59:43 -        Number of servers: 1
+2023-08-07 15:59:43 - Maintennance onprem.
+2023-08-07 15:59:43 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 766,8kWh, Price: 605,772 zl
+2023-08-07 15:59:43 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-07 15:59:43 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-07 15:59:43 -        Total network equipment size: 11
+2023-08-07 15:59:43 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-07 15:59:43 - Infrastructure Management
+2023-08-07 15:59:43 -     General
+2023-08-07 15:59:43 -        CompanyName: CCIT, HoursOfSupport 10h ,Price: 970 zl
+2023-08-07 15:59:46 - 
+2023-08-07 15:59:46 - Generel calculated information
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 215,16, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 1757,00, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 695,00, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 695,00, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 13417,00, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Server, Name: Virtual Machines LS Series, Version: L4s, Count: 1, TotalPrice: 1041,6, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 605,772, PaymentType: month
+2023-08-07 15:59:46 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-07 15:59:46 - Type: Cloud, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 15:59:46 - Type: OnPrem, Catalog: Managemenet, Name: Infrastructure management, Version: Infrastructure managemen, Count: 1, TotalPrice: 970, PaymentType: month
+2023-08-07 16:00:11 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 5 162,96 zł
+Total (after 1 month) OnPrem Price: 25 600,79 zł
+2023-08-30 09:15:39 - The calculation was started.
+2023-08-30 09:15:39 - Input user data:.
+2023-08-30 09:15:39 -    Content for Startup info:
+2023-08-30 09:15:39 -    Startup type: ECommerce
+2023-08-30 09:15:39 -    Starting budger: 15000
+2023-08-30 09:15:39 -    Month budget:  6000
+2023-08-30 09:15:39 -    Number of employees: 3
+2023-08-30 09:15:39 -    Storage size [TB]: 2
+2023-08-30 09:15:39 -    Database required?: True
+2023-08-30 09:15:39 -    Database type: NoSQL
+2023-08-30 09:15:39 -    Database size: 50
+2023-08-30 09:15:39 -    Scalability: 3
+2023-08-30 09:15:39 -    Security: 2
+2023-08-30 09:15:39 -    Infrastructure management: True
+2023-08-30 09:15:39 -    Software payment method: Roczna
+2023-08-30 09:15:42 - Storage calculation:
+2023-08-30 09:15:42 -    Cloud:
+2023-08-30 09:15:42 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Data Stored, Cost: 784 zl
+2023-08-30 09:15:42 -        ServiceName: Storage, ProductName: General Block Blob v2, MeterName: Hot LRS Write Operations, Cost: 27 zl
+2023-08-30 09:15:42 -        Sumarry cost: 811
+2023-08-30 09:15:43 -    OnPrem:
+2023-08-30 09:15:43 -        SSD disk capacity: 2000GB, Model: 2TB 2,5" SATA SSD 870 EVO, Price: 589,00 zl, Ilosc: 1
+2023-08-30 09:15:43 -        Summary Price: 589,00 zl
+2023-08-30 09:15:43 -        NAS server model: QNAP TR-004U, Price: 1568,00 zl
+2023-08-30 09:15:43 - Networking calculation:
+2023-08-30 09:15:43 -    Cloud:
+2023-08-30 09:15:44 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Deployment, Cost: 1153,4 zl
+2023-08-30 09:15:44 -        ServiceName: Azure Firewall, ProductName: Azure Firewall, MeterName: Basic Data Processed, Cost: 13  zl
+2023-08-30 09:15:44 -        Summary Firewall cost: 1166,4
+2023-08-30 09:15:44 -        ServiceName: ExpressRoute, ProductName: ExpressRoute Standard Gateway, MeterName: Standard Gateway, Cost: 554,8  zl
+2023-08-30 09:15:44 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Data Processed, Cost: 20  zl
+2023-08-30 09:15:45 -        ServiceName: Load Balancer, ProductName: Load Balancer, MeterName: Standard Included LB Rules and Outbound Rules, Cost: 100  zl
+2023-08-30 09:15:45 -        Summary Load Balancer cost: 120
+2023-08-30 09:15:45 -    OnPrem:
+2023-08-30 09:15:45 -        Switch model: Ubiquiti Switch 24, Number: 1, Price All: 1200 zl
+2023-08-30 09:15:45 -        Router model: Ubiquiti ER-12 EDGEMAX, Number: 1, Price All: 1180 zl
+2023-08-30 09:15:45 -        Firewall model: Juniper SRX300, Number: 1, Price All: 2840 zl
+2023-08-30 09:15:45 -        Access Point model: Ubiquiti AP AC Pro, Number: 1, Price All: 400 zl
+2023-08-30 09:15:45 -        Load Balancer model: In router, Number: 0, Price All: 0 zl
+2023-08-30 09:15:45 - Software calculation
+2023-08-30 09:15:45 -     General:
+2023-08-30 09:15:45 -         Service: Github
+2023-08-30 09:15:45 -         Provider: Github
+2023-08-30 09:15:45 -         Version: Team
+2023-08-30 09:15:45 -         Monthly Cost: 75,00 zł
+2023-08-30 09:15:45 -         Service: Word Press
+2023-08-30 09:15:45 -         Provider: WordPress
+2023-08-30 09:15:45 -         Version: Commerce
+2023-08-30 09:15:45 -         Monthly Cost: 172 zł
+2023-08-30 09:15:45 -         Service: WooComerce
+2023-08-30 09:15:45 -         Provider: WooComerce
+2023-08-30 09:15:45 -         Version: Startup
+2023-08-30 09:15:45 -         Monthly Cost: 14 zł
+2023-08-30 09:15:45 -         Service: OptiMonk
+2023-08-30 09:15:45 -         Provider: OptiMonk
+2023-08-30 09:15:45 -         Version: Essential
+2023-08-30 09:15:45 -         Monthly Cost: 134,00 zł
+2023-08-30 09:15:45 -    Summary software cost for ECommerce startup: 395,00 zł
+2023-08-30 09:15:45 - Database calculation:
+2023-08-30 09:15:45 -    Cloud:
+2023-08-30 09:15:45 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: 100 RU/s, Cost: 93,44  zl
+2023-08-30 09:15:46 -        ServiceName: Azure Cosmos DB, ProductName: Azure Cosmos DB, MeterName: Data Stored, Cost: 50  zl
+2023-08-30 09:15:46 -        Summary cost: 143,44
+2023-08-30 09:15:46 -  Onprem:
+2023-08-30 09:15:46 -        Model: 250GB 2,5" SATA SSD 870 EVO, Capacity: 250GB, Price: 125,00 zł
+2023-08-30 09:15:46 -        Summary Price: 125,00 zł
+2023-08-30 09:15:46 - Server calculation:
+2023-08-30 09:15:46 -     OnPrem
+2023-08-30 09:15:46 -         Recomender physical server configuration:
+2023-08-30 09:15:46 -         Server name: DELL PowerEdge R450
+2023-08-30 09:15:46 -         Procesor: Intel® Xeon® Silver 4309Y
+2023-08-30 09:15:46 -         vCPUs: 128
+2023-08-30 09:15:46 -         RAM: 32GB
+2023-08-30 09:15:46 -         Memory: 1000GB
+2023-08-30 09:15:46 -         Summary price: 13417,00 zł
+2023-08-30 09:15:46 -        Number of servers: 1
+2023-08-30 09:15:46 -     Cloud:
+2023-08-30 09:15:47 -        ProductName: Virtual Machines LS Series
+2023-08-30 09:15:47 -        MeterName: L4s
+2023-08-30 09:15:47 -        Price for server: 1041,6 zl
+2023-08-30 09:15:47 -        Number of servers: 1
+2023-08-30 09:15:47 - Maintennance onprem.
+2023-08-30 09:15:47 -     Service: Power, Provider: PGE, Plan: Small Companies, Consumption: 766,8kWh, Price: 605,772 zl
+2023-08-30 09:15:47 -     Service: UPS, Provider: EAST, Model: UPS1000S-T-LI, Count: 1, Total Price: 1065 zl
+2023-08-30 09:15:47 -     Service: RACK Cooling, Provider: RACK Sytems, Model: RACK Systems FANSKT4-W, Count: 1, Total Price: 829,02 zl
+2023-08-30 09:15:47 -        Total network equipment size: 13
+2023-08-30 09:15:47 -     Service: RACK, Provider: RACK, Model: WF01-6415-10S V2 LANBERG, Count: 1, Total Price: 642  zl
+2023-08-30 09:15:50 - 
+2023-08-30 09:15:50 - Generel calculated information
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Storage, Name: General Block Blob v2, Version: Data Stored + Write Operations, Count: 1, TotalPrice: 811, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Storage, Name: QNAP NAS storage, Version: NAS server TR-004U + SSD disks, Count: 1, TotalPrice: 2157,00, PaymentType: instantly
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Firewall, Name: AzureFirewall, Version: Firewall and DataProcessed, Count: 1, TotalPrice: 1166,4, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Router, Name: ExpressRoute, Version: ExpressRoute Standard Gateway, Count: 1, TotalPrice: 554,8, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Load Balancer, Name: Azure Load Balance, Version: Data proccess + rules, Count: 1, TotalPrice: 120, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Switch, Name: Not needed, Version: Not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Switch, Name: Ubiqiti, Version: Switch 24, Count: 1, TotalPrice: 1200, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Router, Name: Ubiquiti, Version: ER-12 EDGEMAX, Count: 1, TotalPrice: 1180, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Firewall, Name: Juniper, Version: SRX300, Count: 1, TotalPrice: 2840, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Access Point, Name: Ubiquiti, Version: AP AC Pro, Count: 1, TotalPrice: 400, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Load Balancer, Name: LB in router, Version: -, Count: 0, TotalPrice: 0, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 395,00, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Software, Name: All software, Version: All software, Count: 1, TotalPrice: 395,00, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Database, Name: Azure Cosmos DB, Version: 400 RU/s, Count: 1, TotalPrice: 143,44, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Database, Name: Database, Version: SSD database storage, Count: 1, TotalPrice: 125,00, PaymentType: instantly
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Server, Name: DELL PowerEdge R450, Version: DELL PowerEdge R450, Count: 1, TotalPrice: 13417,00, PaymentType: instantly
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Server, Name: Virtual Machines LS Series, Version: L4s, Count: 1, TotalPrice: 1041,6, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Power, Name: PGE, Version: Small Companies, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Power, Name: PGE, Version: Small Companies, Count: 1, TotalPrice: 605,772, PaymentType: month
+2023-08-30 09:15:50 - Type: Cloud, Catalog: UPS, Name: UPS, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: UPS, Name: UPS1000S-T-LI, Version: UPS for Servers, Count: 1, TotalPrice: 1065, PaymentType: instantly
+2023-08-30 09:15:50 - Type: Cloud, Catalog: Cooling system, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: Cooling system, Name: RACK Systems FANSKT4-W, Version: Cooling for RACK, Count: 1, TotalPrice: 829,02, PaymentType: instantly
+2023-08-30 09:15:50 - Type: Cloud, Catalog: RACKs, Name: -, Version: not needed, Count: 0, TotalPrice: 0, PaymentType: month
+2023-08-30 09:15:50 - Type: OnPrem, Catalog: RACKs, Name: RACK Systems, Version: WF01-6415-10S V2 LANBERG, Count: 1, TotalPrice: 642, PaymentType: instantly
+2023-08-30 09:16:04 - Solution after 12 months of working:  Infrastruktura Chmurowa
+
+Total (after 1 month) Cloud Price: 4 632,24 zł
+Total (after 1 month) OnPrem Price: 24 855,79 zł
